@@ -1,14 +1,27 @@
-# Gateway Site for AAHAA and A Walk To Freedom
+# Gateway Site for A Walk To Freedom and AAHAA
 
-Website Link: [https://dannyboitattoos.herokuapp.com](https://dannyboitattoos.herokuapp.com)
+Gateway site for AAHAA and A Walk To Freedom.
 
-Instagram Page: [https://www.instagram.com/dannyboimendez88/](https://www.instagram.com/dannyboimendez88/)
+Website Link (Tentative): [https://dannyboitattoos.herokuapp.com](https://dannyboitattoos.herokuapp.com)
 
-Landing page for DannyBoiTattoos.
+A Walk To Freedom Page: [https://awalktofreedom.com](https://awalktofreedom.com)
+
+Alcoholics & Addicts Helping Alcoholics & Addicts Page: [https://www.aahaasupportivehousing.com](https://www.aahaasupportivehousing.com)
 
 Technologies used:
 
 - [React](https://reactjs.org/) - Frontend framework
-- [Instagram Basic Display API](https://developers.facebook.com/docs/instagram-basic-display-api/) - API to fetch instagram posts
-- [Node.js](https://nodejs.org/en/) - Backend runtime environment
-- [Express](https://expressjs.com/) - Backend framework to create API for fetching instagram posts
+
+How to run site locally:
+
+1. On the root directory /aahaa-gateway, install dependencies by running the command:
+
+```
+npm install
+```
+
+2. Once dependencies are installed, run the following command to run the site locally:
+
+```
+npm start
+```
