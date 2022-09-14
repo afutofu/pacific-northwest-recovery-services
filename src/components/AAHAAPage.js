@@ -5,7 +5,7 @@ const AAHAAPage = () => {
   return (
     <section id="aahaa">
       <navbar>
-        <img src={logo} />
+        <img src={logo} alt="AAHAA" />
       </navbar>
       <div className="container">
         <h3>About Us</h3>

@@ -5,7 +5,7 @@ const WalkPage = () => {
   return (
     <section id="awtf">
       <navbar>
-        <img src={logo} />
+        <img src={logo} alt="A Walk To Freedom" />
       </navbar>
       <div className="container">
         <h3>About Us</h3>
