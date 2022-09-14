@@ -6,4 +6,27 @@
     flex-direction:column;
     justify-content: center;
     align-items:center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+#aahaa img{
+    height:100px;
+    margin-bottom:30px;
+}
+
+#aahaa-button{
+    text-decoration: none;
+    background: white;
+    padding: 15px 35px;
+    border:2px solid white;
+    border-radius:5px;
+    color: black;
+    transition: 0.2s ease all
+}
+
+#aahaa-button:hover{
+    padding: 15px 35px;
+    border-color: rgb(216, 216, 216);
+    background: rgb(216, 216, 216);
 }
