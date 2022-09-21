@@ -55,7 +55,7 @@
 }
 
 #testimonial-selector .options .option:hover{
-    box-shadow: 0px 0px 10px 1px white;
+    text-decoration:underline
 }
 
 #testimonial-selector .selected{
