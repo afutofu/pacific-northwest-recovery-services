@@ -1,46 +1,85 @@
 import "../styles/WalkPage.css";
-import logo from "../assets/awtf-logo.png";
+import logo from "../assets/images/awtf-logo.png";
+import bg from "../assets/images/awtf-page-bg.jpg";
+import facebookIcon from "../assets/icons/iconmonstr-facebook.png";
+import instagramIcon from "../assets/icons/iconmonstr-instagram.png";
+
+import TeamSelector from "./TeamSelector";
 
 const WalkPage = () => {
   return (
     <section id="awtf">
-      <navbar>
-        <img src={logo} alt="A Walk To Freedom" />
-      </navbar>
-      <div className="container">
-        <h3>About Us</h3>
+      <img className="bg-image" src={bg} alt="path going through forest" />
+      <header>
+        <div className="icons">
+          <a
+            href="https://facebook.com/AWalkToFreedomCounseling"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={facebookIcon} alt="facebook logo" />
+          </a>
+          <a
+            href="https://instagram.com/AwalkTo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={instagramIcon} alt="instagram logo" />
+          </a>
+        </div>
+        <img className="title" src={logo} alt="A Walk To Freedom" />
+        <p>Tel: +1 (253) 939-2211</p>
+      </header>
+      <div className="container about">
+        {/* <h3>About Us</h3> */}
         <p>
           We help support the health, well-being and healing of individuals and
-          families by making a diffrerence in the lives of the people we
-          interact with each day.
+          families by making a difference in the lives of the people we interact
+          with each day. If you’re interested in becoming <strong>clean</strong>{" "}
+          and <strong>sober</strong>, <strong>happier</strong>, and find some{" "}
+          <strong>peace</strong>, get started and please get in contact today!
         </p>
+        <a
+          id="awtf-button"
+          href="https://awalktofreedom.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Full information and services here
+        </a>
       </div>
-      <div className="container">
+      <div className="container services">
         <h3>Services We Provide</h3>
-        <p>Intensive Outpatient</p>
-        <p>Relapse Prevention</p>
-        <p>Outpatient</p>
-        <p>Alcohol, Drug information School</p>
-        <p>Aftercare</p>
-        <p>Consumer Awareness</p>
-        <p>Deferred Prosecution</p>
-        <p>Family Law Assessments</p>
-        <p>Drug and Alcohol Assessments</p>
-        <p>Housing Referrals</p>
-        <p>Employment Referrals</p>
-        <p>Peer Support</p>
-        <p>Crisis Help</p>
-        <p>DUI Assessments</p>
+        <ul>
+          <li>Intensive Outpatient</li>
+          <li>Relapse Prevention</li>
+          <li>Outpatient</li>
+          <li>Alcohol, Drug information School</li>
+          <li>Aftercare</li>
+          <li>Consumer Awareness</li>
+          <li>Deferred Prosecution</li>
+          <li>Family Law Assessments</li>
+          <li>Drug and Alcohol Assessments</li>
+          <li>Housing Referrals</li>
+          <li>Employment Referrals</li>
+          <li>Peer Support</li>
+          <li>Crisis Help</li>
+          <li>DUI Assessments</li>
+        </ul>
       </div>
-
-      <a
-        id="awtf-button"
-        href="https://www.aahaasupportivehousing.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Full information and services here
-      </a>
+      <div className="container team">
+        <h3>Meet Our Team</h3>
+        <TeamSelector />
+        <div className="separator" />
+        <a
+          id="awtf-button"
+          href="https://awalktofreedom.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Full information and services here
+        </a>
+      </div>
     </section>
   );
 };

@@ -1,5 +1,5 @@
 import "../styles/AAHAAPage.css";
-import logo from "../assets/aahaa-logo.png";
+import logo from "../assets/images/aahaa-logo.png";
 
 const AAHAAPage = () => {
   return (

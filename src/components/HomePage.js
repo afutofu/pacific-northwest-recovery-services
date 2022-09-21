@@ -2,8 +2,8 @@ import { useState } from "react";
 
 import "../styles/Home.css";
 
-import awtfLogo from "../assets/awtf-logo.png";
-import aahaaLogo from "../assets/aahaa-logo.png";
+import awtfLogo from "../assets/images/awtf-logo.png";
+import aahaaLogo from "../assets/images/aahaa-logo.png";
 
 const HomePage = () => {
   const [showAwtf, setShowAwtf] = useState(false);

@@ -1,0 +1,71 @@
+#team-selector{
+    background-color: unset;
+    display:flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color:white;
+}
+
+#team-selector .name{
+    font-size: 25px;
+    margin-bottom:30px;
+    display:flex;
+    justify-content: center;;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+#team-selector .title{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top:1px;
+}
+
+#team-selector .content{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#team-selector .picture{
+    width:330px;
+    height:330px;
+    margin-right:20px;
+}
+
+#team-selector .desc{
+    width: 450px;
+    font-size:20px;
+    line-height:25px;
+}
+
+
+#team-selector .options{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team-selector .options img{
+    width:70px;
+    height:70px;
+    cursor:pointer;
+    margin: 0 15px;
+    box-sizing: border-box;
+    transition: box-shadow 0.2s ease;
+}
+
+#team-selector .options .option:hover{
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+#team-selector .selected{
+    box-shadow: 0px 0px 10px 1px white, 0px 0px 10px 1px white, 0px 0px 10px 1px white;
+}
+
+#team-selector .options .selected:hover{
+    box-shadow: 0px 0px 10px 1px white, 0px 0px 10px 1px white, 0px 0px 10px 1px white;
+}
