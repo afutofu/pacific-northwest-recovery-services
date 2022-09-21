@@ -32,6 +32,10 @@ navbar {
   margin-bottom:10px;
 }
 
+.separator{
+  height:30px;
+}
+
 /* montserrat-regular - latin */
 @font-face {
   font-family: 'Montserrat';

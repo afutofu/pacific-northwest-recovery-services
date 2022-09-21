@@ -1,0 +1,67 @@
+#testimonial-selector{
+    background-color: unset;
+    display:flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color:black;
+}
+
+#testimonial-selector .name{
+    font-size: 25px;
+    margin-bottom:30px;
+    display:flex;
+    justify-content: center;;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+#testimonial-selector .title{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top:1px;
+}
+
+#testimonial-selector .content{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 280px;
+}
+
+
+#testimonial-selector .desc{
+    width: 450px;
+    font-size:20px;
+    line-height:30px;
+}
+
+
+#testimonial-selector .options{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonial-selector .options h3{
+    font-size: 16px;
+    cursor:pointer;
+    margin: 0 15px;
+    box-sizing: border-box;
+    transition: box-shadow 0.2s ease;
+    color: #61a656
+}
+
+#testimonial-selector .options .option:hover{
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+#testimonial-selector .selected{
+    text-decoration:underline
+}
+
+#testimonial-selector .options .selected:hover{
+
+}
