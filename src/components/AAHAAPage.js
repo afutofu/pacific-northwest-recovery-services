@@ -3,12 +3,14 @@ import logo from "../assets/images/aahaa-logo.png";
 import bg from "../assets/images/aahaa-home-bg.jpg";
 import facebookIcon from "../assets/icons/iconmonstr-facebook-white.png";
 
+import Banner from "./Banner";
 import TestimonialSelector from "./TestimonialSelector";
 
 const AAHAAPage = () => {
   return (
     <section id="aahaa">
       <img className="bg-image" src={bg} alt="path going through forest" />
+      <Banner />
       <header>
         <div className="icons">
           <a

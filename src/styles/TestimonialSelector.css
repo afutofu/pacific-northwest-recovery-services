@@ -31,13 +31,11 @@
     height: 280px;
 }
 
-
 #testimonial-selector .quote{
     width: 450px;
     font-size:20px;
     line-height:30px;
 }
-
 
 #testimonial-selector .options{
     display:flex;
@@ -62,6 +60,6 @@
     text-decoration:underline
 }
 
-#testimonial-selector .options .selected:hover{
+/* #testimonial-selector .options .selected:hover{
 
-}
+} */

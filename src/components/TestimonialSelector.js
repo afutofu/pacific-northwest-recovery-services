@@ -39,6 +39,7 @@ const TestimonialSelector = () => {
         {testimonials.map((testimonial, index) => {
           return (
             <h3
+              key={testimonial.name}
               alt="person"
               className={`option ${selected === index && "selected"}`}
               onClick={() => setSelected(index)}

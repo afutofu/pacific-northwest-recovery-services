@@ -4,12 +4,14 @@ import bg from "../assets/images/awtf-page-bg.jpg";
 import facebookIcon from "../assets/icons/iconmonstr-facebook.png";
 import instagramIcon from "../assets/icons/iconmonstr-instagram.png";
 
+import Banner from "./Banner";
 import TeamSelector from "./TeamSelector";
 
 const WalkPage = () => {
   return (
     <section id="awtf">
       <img className="bg-image" src={bg} alt="path going through forest" />
+      <Banner />
       <header>
         <div className="icons">
           <a
