@@ -1,197 +1,208 @@
-#aahaa{
-    width:100%;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
-    /* padding-bottom: 40px; */
-    font-family:"Montserrat", sans-serif;
-    overflow-x:hidden;
+#aahaa {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 40px; */
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
-#aahaa .bg-image{
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    z-index:-100;
+#aahaa .bg-image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -100;
 }
 
-#aahaa header{
-    position:relative;
-    width:100%;
-    padding-top: 50px;
-    height: 60px;
-    margin-bottom:30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    background-color:#61a656;
+#aahaa header {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  height: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #61a656;
 }
 
-#aahaa header .icons{
-    display:flex;
+#aahaa header .back-button {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  transition: color 0.2s ease;
 }
 
-#aahaa header .icons a{
-    display:flex;
-    margin: 15px;
-    border-radius: 50%;
-    transition: box-shadow 0.2s ease;
+#aahaa .back-button:hover {
+  text-decoration: underline;
 }
 
-#aahaa header .icons a:hover{
-    box-shadow: 0px 0px 10px 1px white;
+#aahaa header .icons {
+  display: flex;
 }
 
-#aahaa header .icons img{
-    display:flex;
-    width:25px;
-    padding:10px;
+#aahaa header .icons a {
+  display: flex;
+  margin: 15px;
+  border-radius: 50%;
+  transition: box-shadow 0.2s ease;
 }
 
-#aahaa header p{
-    font-size:20px;
-    font-weight:600;
-    color:white;
+#aahaa header .icons a:hover {
+  box-shadow: 0px 0px 10px 1px white;
+}
+
+#aahaa header .icons img {
+  display: flex;
+  width: 25px;
+  padding: 10px;
+}
+
+#aahaa header p {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
 }
 
 #aahaa header::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: calc(100% + 20px);
-    z-index: -1;
-    background-color: #61a656;
-    transform-origin: bottom left;
-    transform: skewY(2deg);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: calc(100% + 20px);
+  z-index: -1;
+  background-color: #61a656;
+  transform-origin: bottom left;
+  transform: skewY(2deg);
 }
 
-#aahaa header .title{
-    height: 110px;
+#aahaa header .title {
+  height: 110px;
 }
 
-#aahaa .about{
-    width:60%;
-    height:600px;
-    background-color: transparent;
+#aahaa .about {
+  width: 60%;
+  height: 600px;
+  background-color: transparent;
 }
 
 #aahaa .about p {
-    font-size: 22px;
-    line-height:35px;
-    font-weight:900;
-    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: white;
-    margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 900;
+  text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black,
+    0px 0px 5px black;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 30px;
 }
 
 #aahaa .about p strong {
-    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
-    color: #61ce70;
-
+  text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+  color: #61ce70;
 }
 
 #aahaa .services {
-    width:100%;
-    position:relative;
-    padding-top: 90px;
-    padding-bottom: 0px;
-    background-color: white;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items:center;
-    margin: 0;
-    z-index:10;
+  width: 100%;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 0px;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  z-index: 10;
 }
 
-
 #aahaa .services h3 {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom:25px;
-    color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: white;
 }
 
 #aahaa .services ul {
-    width:60%;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items:center;
-    list-style: none;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 }
 
 #aahaa .services li {
-    margin-right: 40px;
-    margin-bottom:30px;
-    font-size:18px;
-    font-weight:400;
-    color:white;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
 }
 
 #aahaa .services::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: calc(100% + 20px);
-    z-index: -1;
-    background-color: #61a656;
-    transform-origin: bottom left;
-    transform: skewY(-2deg);
-  }
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100% + 20px);
+  z-index: -1;
+  background-color: #61a656;
+  transform-origin: bottom left;
+  transform: skewY(-2deg);
+}
 
 #aahaa .services::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: calc(110%);
-    z-index: -1;
-    background-color: #61a656;
-    transform-origin: bottom left;
-    transform: skewY(2deg);
-  }
-
-  #aahaa .team {
-    width:100%;
-    background-color: white;
-    padding-top: 150px;
-    display:flex;
-    padding-bottom: 50px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(110%);
+  z-index: -1;
+  background-color: #61a656;
+  transform-origin: bottom left;
+  transform: skewY(2deg);
 }
 
-#aahaa .team h3{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom:25px;
-    color: #61a656;
+#aahaa .team {
+  width: 100%;
+  background-color: white;
+  padding-top: 150px;
+  display: flex;
+  padding-bottom: 50px;
 }
 
-#aahaa-button{
-    text-decoration: none;
-    padding: 15px 35px;
-    background-color: white;
-    border:2px solid #61a656;
-    border-radius:5px;
-    color: #61a656;
-    transition: 0.2s ease all
+#aahaa .team h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #61a656;
 }
 
-#aahaa-button:hover{
-    padding: 15px 35px;
-    border-color: #61ce70;
-    background: #61ce70;
-    color: white
+#aahaa-button {
+  text-decoration: none;
+  padding: 15px 35px;
+  background-color: white;
+  border: 2px solid #61a656;
+  border-radius: 5px;
+  color: #61a656;
+  transition: 0.2s ease all;
+}
+
+#aahaa-button:hover {
+  padding: 15px 35px;
+  border-color: #61ce70;
+  background: #61ce70;
+  color: white;
 }

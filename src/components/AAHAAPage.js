@@ -12,6 +12,9 @@ const AAHAAPage = () => {
       <img className="bg-image" src={bg} alt="path going through forest" />
       <Banner />
       <header>
+        <a href="/" className="back-button">
+          Back
+        </a>
         <div className="icons">
           <a
             href="https://www.facebook.com/aahaasoberliving"

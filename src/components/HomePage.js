@@ -14,6 +14,13 @@ const HomePage = () => {
 
   return (
     <section id="home">
+      <div className="home-banner">
+        <h2>Pacific Northwest Recovery Services</h2>
+        <p>
+          By January 1st our brand new PHP home for those who are in need of
+          more structured environment
+        </p>
+      </div>
       <a
         id="awtf-container"
         href="/awtf"
@@ -32,12 +39,31 @@ const HomePage = () => {
           alt="bridge going into forest"
           className="background-image"
         />
-        <div className="container">
-          <img id="awtf-logo" src={awtfLogo} alt="A Walk To Freedom" />
-          <h2 className={`content ${showAwtf ? "visible" : "invisible"}`}>
-            "The Road to Healing Begins Here"
-          </h2>
+        {/* <div className="container"> */}
+        <img id="awtf-logo" src={awtfLogo} alt="A Walk To Freedom" />
+        <div className={`content  ${showAwtf ? "visible" : "invisible"}`}>
+          {/* <h3 className="quote">"The Road to Healing Begins Here"</h3> */}
+          <div className="services">
+            <h3>Services We Provide</h3>
+            <ul>
+              <li>Intensive Outpatient</li>
+              <li>Relapse Prevention</li>
+              <li>Outpatient</li>
+              <li>Alcohol, Drug information School</li>
+              <li>Aftercare</li>
+              <li>Consumer Awareness</li>
+              <li>Deferred Prosecution</li>
+              <li>Family Law Assessments</li>
+              <li>Drug and Alcohol Assessments</li>
+              <li>Housing Referrals</li>
+              <li>Employment Referrals</li>
+              <li>Peer Support</li>
+              <li>Crisis Help</li>
+              <li>DUI Assessments</li>
+            </ul>
+          </div>
         </div>
+        {/* </div> */}
       </a>
       <a
         id="aahaa-container"
@@ -58,12 +84,30 @@ const HomePage = () => {
           className="background-image"
         />
         <img id="aahaa-logo" src={aahaaLogo} alt="AAHAA" />
-        <div className="container">
-          <h2 className={`content ${showAahaa ? "visible" : "invisible"}`}>
-            "A new way of life is possible, one just has to be willing to try
-            something new and have a willingness to embrace change"
-          </h2>
+        {/* <div className="container"> */}
+        <div className={`content  ${showAahaa ? "visible" : "invisible"}`}>
+          {/* <h3 className="quote">
+            “A new way of life is possible, one just has to be willing to try
+            something new and have a willingness to embrace change.”
+          </h3> */}
+          <div className="services">
+            <h3>Services We Provide</h3>
+            <ul>
+              <li>Individual Counseling Services</li>
+              <li>Life Skills Training & Seminars</li>
+              <li>Case Management</li>
+              <li>Food</li>
+              <li>Utilities</li>
+              <li>Local & Long Distance Telephone</li>
+              <li>Internet Access</li>
+              <li>Laundry</li>
+              <li>Furnishings (including bed & dressers)</li>
+              <li>Linen and Bath</li>
+              <li>Easy Access to Public Transportation</li>
+            </ul>
+          </div>
         </div>
+        {/* </div> */}
       </a>
     </section>
   );
