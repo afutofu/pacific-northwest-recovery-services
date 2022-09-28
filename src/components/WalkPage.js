@@ -38,7 +38,7 @@ const WalkPage = () => {
           </a>
         </div>
         <img className="title" src={logo} alt="A Walk To Freedom" />
-        <p>Tel: +1 (253) 939-2211</p>
+        <p className="phone-number">Tel: +1 (253) 939-2211</p>
       </header>
       <div className="container about">
         {/* <h3>About Us</h3> */}

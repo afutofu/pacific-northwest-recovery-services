@@ -206,3 +206,40 @@
   background: #83b7d4;
   color: white;
 }
+
+@media only screen and (max-width: 1200px) {
+  #awtf header .title {
+    height: 50px;
+  }
+
+  #awtf header .phone-number {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #awtf header .back-button {
+    display: none;
+  }
+
+  #awtf header .icons a {
+    display: flex;
+    margin: 5px;
+    border-radius: 50%;
+    transition: box-shadow 0.2s ease;
+  }
+
+  #awtf header .icons img {
+    display: flex;
+    width: 20px;
+    padding: 10px;
+  }
+
+  #awtf header .title {
+    height: 40px;
+  }
+
+  #awtf header .phone-number {
+    font-size: 12px;
+  }
+}
