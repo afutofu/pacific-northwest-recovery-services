@@ -11,7 +11,12 @@ const WalkPage = () => {
   return (
     <section id="awtf">
       <img className="bg-image" src={bg} alt="path going through forest" />
-      <Banner />
+      <Banner>
+        <p>
+          <strong>January 1st</strong> - Our brand new PHP home for those who
+          are in need of more structured environment.
+        </p>
+      </Banner>
       <header>
         <a href="/" className="back-button">
           Back
@@ -38,11 +43,8 @@ const WalkPage = () => {
       <div className="container about">
         {/* <h3>About Us</h3> */}
         <p>
-          We help support the health, well-being and healing of individuals and
-          families by making a difference in the lives of the people we interact
-          with each day. If you’re interested in becoming <strong>clean</strong>{" "}
-          and <strong>sober</strong>, <strong>happier</strong>, and find some{" "}
-          <strong>peace</strong>, get started and please get in contact today!
+          By January 1st our brand new PHP home for those who are in need of
+          more structured environment
         </p>
         <a
           id="awtf-button"

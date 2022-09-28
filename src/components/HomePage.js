@@ -15,11 +15,16 @@ const HomePage = () => {
   return (
     <section id="home">
       <div className="home-banner">
-        <h2>Pacific Northwest Recovery Services</h2>
-        <p>
-          By January 1st our brand new PHP home for those who are in need of
-          more structured environment
-        </p>
+        <div className="content">
+          <h2>Pacific Northwest Recovery Services</h2>
+          <p>
+            After decades of living in this space and finding spaces to heal, A
+            Walk To Freedom and AAHAA have decided to come together in order to
+            provide all these comprehensive wrap-around services for{" "}
+            <strong>healing</strong> and <strong>growth</strong> for the men and
+            women who are looking for <strong>real change</strong>.
+          </p>
+        </div>
       </div>
       <a
         id="awtf-container"

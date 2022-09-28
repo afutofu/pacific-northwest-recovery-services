@@ -10,7 +10,19 @@ const AAHAAPage = () => {
   return (
     <section id="aahaa">
       <img className="bg-image" src={bg} alt="path going through forest" />
-      <Banner />
+      <Banner>
+        <p>
+          <strong>September 27th</strong> - New location for women with higher
+          needs
+        </p>
+        <p>
+          <strong>November 1st</strong> - New location for men with higher needs
+        </p>
+        <p>
+          <strong>January 1st</strong> - Our brand new PHP home for those who
+          are in need of more structured environment.
+        </p>
+      </Banner>
       <header>
         <a href="/" className="back-button">
           Back
@@ -30,12 +42,8 @@ const AAHAAPage = () => {
       <div className="container about">
         {/* <h3>About Us</h3> */}
         <p>
-          AAHAA Supportive Housing is a community of men and women in recovery.
-          Through <strong>group conscience</strong>, <strong>fellowship</strong>
-          , a 12-step program, and <strong>faith</strong> - we work towards a
-          common goal. A new way of life is possible, one just has to be{" "}
-          <strong>willing</strong> to try something new and have a willingness
-          to embrace <strong>change</strong>.
+          By January 1st our brand new PHP home for those who are in need of
+          more structured environment
         </p>
         <a
           id="aahaa-button"

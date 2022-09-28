@@ -1,24 +1,28 @@
-.banner{
-    position:relative;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+.banner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.banner .content{
-    width:80%;
-    font-family:"Montserrat", sans-serif;
-    font-size: 16px;
-    line-height:22px;
+.banner .content {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-#awtf .banner{
-    background-color: #2a639d;
-    color: white;
+.banner .content * {
+  margin: 5px;
 }
 
-#aahaa .banner{
-    background-color: white;
-    color: #61a656;
+#awtf .banner {
+  background-color: #2a639d;
+  color: white;
+}
+
+#aahaa .banner {
+  background-color: white;
+  color: #61a656;
 }
