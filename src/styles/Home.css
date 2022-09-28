@@ -1,4 +1,26 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
+  /* Container states */
+  #home .container-normal {
+    width: 50%;
+  }
+
+  #home .container-expand {
+    width: 80%;
+  }
+
+  #home .container-shrink {
+    width: 20%;
+  }
+
+  #home .content.invisible {
+    opacity: 0;
+    font-size: 0px;
+  }
+
+  #home .content.visible {
+    opacity: 1;
+    font-size: 20px;
+  }
 }
 
 #home {
@@ -169,30 +191,10 @@
   max-width: 270px;
 }
 
-/* Container states */
-#home .container-normal {
-  width: 50%;
-}
-
-#home .container-expand {
-  width: 80%;
-}
-
-#home .container-shrink {
-  width: 20%;
-}
-
-#home .content.invisible {
-  opacity: 0;
-  font-size: 0px;
-}
-
-#home .content.visible {
-  opacity: 1;
-  font-size: 20px;
-}
-
 @media only screen and (max-width: 992px) {
+  #home .home-banner .content {
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -202,28 +204,73 @@
     width: 100vw;
   }
 
+  #home .home-banner {
+    position: relative;
+  }
+
+  #home .home-banner .content {
+    width: 95%;
+  }
+
+  #home .home-banner .content h2 {
+    font-size: 14px;
+  }
+
+  #home .home-banner .content p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
   #awtf-container {
     width: 100vw;
+    height: 30vh;
     /* height:50vh; */
   }
 
   #aahaa-container {
     width: 100vw;
+    height: 30vh;
     /* height:50vh; */
   }
 
   /* Logos */
   #home #awtf-logo {
     position: absolute;
+    top: 10vh;
     min-width: 200px;
-    width: 50%;
+    width: 70%;
     max-width: 700px;
   }
 
   #home #aahaa-logo {
+    position: absolute;
+    top: 10vh;
     min-width: 150px;
     width: 20%;
     max-width: 300px;
+  }
+
+  .invisible {
+    opacity: 1;
+  }
+
+  #home .services {
+    top: 18vh;
+  }
+
+  #home .services ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #home .services h3 {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+
+  #home .services li {
+    font-size: 8px;
+    margin-right: 10px;
   }
 
   /* Container states */
@@ -233,11 +280,13 @@
   }
 
   #home .container-expand {
-    height: 80%;
+    width: 100%;
+    height: 50%;
   }
 
   #home .container-shrink {
-    height: 20%;
+    width: 100%;
+    height: 50%;
   }
 }
 
@@ -245,6 +294,49 @@
 }
 
 @media only screen and (max-width: 450px) {
+  #home .home-banner .content h2 {
+    font-size: 10px;
+  }
+
+  #home .home-banner .content p {
+    font-size: 8px;
+    line-height: 14px;
+  }
+
+  /* Logos */
+  #home #awtf-logo {
+    position: absolute;
+    top: 5vh;
+    min-width: 200px;
+    width: 90%;
+    max-width: 700px;
+  }
+
+  #home #aahaa-logo {
+    position: absolute;
+    top: 5vh;
+    min-width: 150px;
+    width: 20%;
+    max-width: 300px;
+  }
+
+  #home .services {
+    top: 13vh;
+  }
+
+  #home .services ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #home .services h3 {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+
+  #home .services li {
+    font-size: 6px;
+  }
 }
 
 @media only screen and (max-width: 350px) {
