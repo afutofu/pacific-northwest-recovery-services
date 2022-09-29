@@ -42,8 +42,12 @@ const AAHAAPage = () => {
       <div className="container about">
         {/* <h3>About Us</h3> */}
         <p>
-          By January 1st our brand new PHP home for those who are in need of
-          more structured environment
+          AAHAA Supportive Housing is a community of men and women in recovery.
+          Through <strong>group conscience</strong>, <strong>fellowship</strong>
+          , a 12-step program, and <strong>faith</strong> - we work towards a
+          common goal. A new way of life is possible, one just has to be{" "}
+          <strong>willing</strong> to try something new and have a willingness
+          to embrace <strong>change</strong>.
         </p>
         <a
           id="aahaa-button"

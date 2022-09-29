@@ -26,3 +26,15 @@
   background-color: white;
   color: #61a656;
 }
+
+@media only screen and (max-width: 800px) {
+  .banner .content {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner .content {
+    font-size: 10px;
+  }
+}

@@ -218,6 +218,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+  #awtf header {
+    padding-top: 40px;
+  }
+
   #awtf header .back-button {
     display: none;
   }
@@ -240,6 +244,132 @@
   }
 
   #awtf header .phone-number {
+    font-size: 12px;
+  }
+
+  #awtf .about p {
+    font-size: 18px;
+  }
+
+  #awtf .services {
+    padding-top: 80px;
+  }
+
+  #awtf .services h3 {
+    font-size: 25px;
+  }
+
+  #awtf .services li {
+    font-size: 16px;
+  }
+
+  #awtf .team {
+    padding-top: 140px;
+  }
+
+  #awtf .team h3 {
+    font-size: 25px;
+  }
+
+  #awtf-button {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #awtf header .icons a {
+    margin: 8px;
+  }
+
+  #awtf header .icons img {
+    display: flex;
+    width: 20px;
+    padding: 5px;
+  }
+
+  #awtf header .title {
+    height: 35px;
+  }
+
+  #awtf header .phone-number {
+    display: none;
+  }
+
+  #awtf .about p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #awtf .services h3 {
+    font-size: 20px;
+  }
+
+  #awtf .services li {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  #awtf .services::after {
+    height: 105%;
+  }
+
+  #awtf .team h3 {
+    font-size: 20px;
+  }
+
+  #awtf-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #awtf header {
+    padding-top: 20px;
+  }
+
+  #awtf header .icons {
+    display: none;
+  }
+
+  #awtf header .title {
+    height: 28px;
+  }
+
+  #awtf .about {
+    width: 80%;
+    height: 400px;
+  }
+
+  #awtf .about p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  #awtf .services {
+    padding-top: 50px;
+  }
+
+  #awtf .services h3 {
+    font-size: 18px;
+  }
+
+  #awtf .services li {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  #awtf .team {
+    padding-top: 90px;
+  }
+
+  #awtf .team h3 {
+    font-size: 18px;
+  }
+
+  #awtf-button {
+    padding: 10px 20px;
     font-size: 12px;
   }
 }

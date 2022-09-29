@@ -43,8 +43,11 @@ const WalkPage = () => {
       <div className="container about">
         {/* <h3>About Us</h3> */}
         <p>
-          By January 1st our brand new PHP home for those who are in need of
-          more structured environment
+          We help support the health, well-being and healing of individuals and
+          families by making a difference in the lives of the people we interact
+          with each day. If you’re interested in becoming <strong>clean</strong>{" "}
+          and <strong>sober</strong>, <strong>happier</strong>, and find some{" "}
+          <strong>peace</strong>, get started and please get in contact today!
         </p>
         <a
           id="awtf-button"

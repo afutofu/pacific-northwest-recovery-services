@@ -87,8 +87,8 @@
     margin-top: 1px;
   }
   #team-selector .picture {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
   }
 
@@ -107,6 +107,13 @@
   #team-selector .picture {
     display: none;
   }
+
+  #team-selector .desc {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -120,7 +127,7 @@
 
   #team-selector .desc {
     width: 250px;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 18px;
   }
 
