@@ -37,7 +37,7 @@ const AAHAAPage = () => {
           </a>
         </div>
         <img className="title" src={logo} alt="A Walk To Freedom" />
-        <p>Tel: +1 (253) 246-1613</p>
+        <p className="phone-number">Tel: +1 (253) 246-1613</p>
       </header>
       <div className="container about">
         {/* <h3>About Us</h3> */}

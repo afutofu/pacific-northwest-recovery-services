@@ -191,6 +191,12 @@
   max-width: 270px;
 }
 
+@media only screen and (max-width: 1200px) {
+  #home .home-banner {
+    height: 140px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   #home .home-banner .content {
     width: 95%;
@@ -337,7 +343,4 @@
   #home .services li {
     font-size: 6px;
   }
-}
-
-@media only screen and (max-width: 350px) {
 }

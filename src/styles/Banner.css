@@ -36,5 +36,6 @@
 @media only screen and (max-width: 600px) {
   .banner .content {
     font-size: 10px;
+    line-height: 15px;
   }
 }

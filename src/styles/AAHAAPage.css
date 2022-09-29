@@ -206,3 +206,157 @@
   background: #61ce70;
   color: white;
 }
+
+@media only screen and (max-width: 1200px) {
+  #aahaa header .title {
+    /* height: 80px; */
+  }
+
+  #aahaa header .phone-number {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #aahaa header {
+    padding-top: 40px;
+  }
+
+  #aahaa header .back-button {
+    display: none;
+  }
+
+  #aahaa header .title {
+    height: 90px;
+  }
+
+  #aahaa .about p {
+    font-size: 18px;
+  }
+
+  #aahaa .services {
+    padding-top: 70px;
+  }
+
+  #aahaa .services h3 {
+    font-size: 25px;
+  }
+
+  #aahaa .services li {
+    font-size: 16px;
+  }
+
+  #aahaa .team {
+    padding-top: 150px;
+  }
+
+  #aahaa .team h3 {
+    font-size: 25px;
+  }
+
+  #aahaa-button {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #aahaa header .icons a {
+    margin: 0px;
+  }
+
+  #aahaa header .icons img {
+    /* display: flex;
+    width: 20px;
+    padding: 5px; */
+  }
+
+  #aahaa header .title {
+    height: 90px;
+  }
+
+  #aahaa header .phone-number {
+    display: none;
+  }
+
+  #aahaa .about p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #aahaa .services h3 {
+    font-size: 20px;
+  }
+
+  #aahaa .services li {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  #aahaa .services::after {
+    height: 105%;
+  }
+
+  #aahaa .team {
+    padding-top: 100px;
+  }
+
+  #aahaa .team h3 {
+    font-size: 20px;
+  }
+
+  #aahaa-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #aahaa header {
+    padding-top: 30px;
+  }
+
+  #aahaa header .icons {
+    display: none;
+  }
+
+  #aahaa header .title {
+    height: 80px;
+  }
+
+  #aahaa .about {
+    width: 80%;
+    height: 400px;
+  }
+
+  #aahaa .about p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  #aahaa .services {
+    padding-top: 50px;
+  }
+
+  #aahaa .services h3 {
+    font-size: 18px;
+  }
+
+  #aahaa .services li {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  #aahaa .team {
+    padding-top: 90px;
+  }
+
+  #aahaa .team h3 {
+    font-size: 18px;
+  }
+
+  #aahaa-button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
