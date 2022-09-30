@@ -35,7 +35,11 @@ const team = [
 const WalkPage = () => {
   return (
     <section id="awtf">
-      <img className="bg-image" src={bg} alt="path going through forest" />
+      <img
+        className="bg-image"
+        src={bg}
+        alt="path going through green grass and forest into the distance."
+      />
       <Banner>
         <p>
           <strong>January 1st</strong> - Our brand new PHP home for those who

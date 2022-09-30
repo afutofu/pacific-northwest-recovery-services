@@ -42,7 +42,11 @@ const team = [
 const AAHAAPage = () => {
   return (
     <section id="aahaa">
-      <img className="bg-image" src={bg} alt="path going through forest" />
+      <img
+        className="bg-image"
+        src={bg}
+        alt="person opening up to sunlight and embracing change. letting go of their previous problems and opening up to other people."
+      />
       <Banner>
         <p>
           <strong>September 27th</strong> - New location for women with higher

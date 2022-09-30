@@ -41,7 +41,7 @@ const HomePage = () => {
       >
         <img
           src={awtfBg}
-          alt="bridge going into forest"
+          alt="bridge going into forest, a walk into the unknown is the first step into freedom"
           className="background-image"
         />
         {/* <div className="container"> */}
@@ -86,7 +86,7 @@ const HomePage = () => {
       >
         <img
           src={aahaaBg}
-          alt="person opening up to sunlight"
+          alt="person opening up to sunlight and embracing change. letting go of their previous problems and opening up to other people."
           className="background-image"
         />
         <img id="aahaa-logo" src={aahaaLogo} alt="AAHAA" />
