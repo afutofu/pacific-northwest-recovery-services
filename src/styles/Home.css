@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
   /* Container states */
   #home .container-normal {
     width: 50%;
@@ -90,12 +90,16 @@
   width: 100%;
   height: 100%;
   color: white;
-  transition: opacity 0.5s ease, font-size 0.3s ease;
+}
+
+#home .content:hover {
+  transition: opacity 1s ease, font-size 0.3s ease;
+  transition-delay: 0.4s;
 }
 
 #home .quote {
   position: absolute;
-  top: 25vh;
+  top: 85vh;
   left: 50%;
   /* width:80%; */
   font-weight: 500;
@@ -103,13 +107,13 @@
   font-size: 20px;
 }
 
-#awtf-container .quote {
+/* #awtf-container .quote {
   top: 30vh;
-}
+} */
 
 #home .services {
   position: absolute;
-  top: 60vh;
+  top: 43vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -120,7 +124,7 @@
 
 #home .services h3 {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
   margin-bottom: 10px;
   color: white;
@@ -133,6 +137,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 0;
 }
 
 #home .services li {
@@ -182,6 +187,8 @@
   min-width: 200px;
   width: 90%;
   max-width: 700px;
+  top: 35vh;
+  transform: translateY(-50%);
 }
 
 #home #aahaa-logo {
@@ -189,21 +196,17 @@
   min-width: 150px;
   width: 40%;
   max-width: 270px;
+  top: 35vh;
+  transform: translateY(-50%);
 }
 
-@media only screen and (max-width: 1200px) {
-  #home .home-banner {
-    height: 140px;
-  }
+/* @media only screen and (max-width: 1200px) {
 }
 
 @media only screen and (max-width: 992px) {
-  #home .home-banner .content {
-    width: 95%;
-  }
-}
+} */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   #home {
     flex-direction: column;
     height: 100vh;
@@ -212,6 +215,7 @@
 
   #home .home-banner {
     position: relative;
+    height: 140px;
   }
 
   #home .home-banner .content {
@@ -242,15 +246,15 @@
   /* Logos */
   #home #awtf-logo {
     position: absolute;
-    top: 10vh;
-    min-width: 200px;
+    top: 6vh;
+    min-width: 400px;
     width: 70%;
     max-width: 700px;
   }
 
   #home #aahaa-logo {
     position: absolute;
-    top: 10vh;
+    top: 6vh;
     min-width: 150px;
     width: 20%;
     max-width: 300px;
@@ -261,7 +265,7 @@
   }
 
   #home .services {
-    top: 18vh;
+    top: 13vh;
   }
 
   #home .services ul {
@@ -277,6 +281,11 @@
   #home .services li {
     font-size: 8px;
     margin-right: 10px;
+  }
+
+  #home .quote {
+    top: 35vh;
+    font-size: 12px;
   }
 
   /* Container states */
@@ -296,7 +305,34 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  #home .services {
+    top: 11vh;
+  }
+
+  #home .services li {
+    margin-bottom: 12px;
+  }
+
+  #home #aahaa-logo {
+    min-width: 120px;
+    width: 15%;
+    max-width: 300px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  #home .services {
+    top: 10vh;
+  }
+
+  #home .services li {
+    margin-bottom: 10px;
+  }
+
+  #home .quote {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -311,19 +347,14 @@
 
   /* Logos */
   #home #awtf-logo {
-    position: absolute;
-    top: 5vh;
-    min-width: 200px;
-    width: 90%;
+    top: 8vh;
+    min-width: 300px;
+    width: 70%;
     max-width: 700px;
   }
 
   #home #aahaa-logo {
-    position: absolute;
-    top: 5vh;
-    min-width: 150px;
-    width: 20%;
-    max-width: 300px;
+    top: 8vh;
   }
 
   #home .services {
@@ -333,6 +364,7 @@
   #home .services ul {
     margin: 0;
     padding: 0;
+    width: 80%;
   }
 
   #home .services h3 {
@@ -342,5 +374,30 @@
 
   #home .services li {
     font-size: 6px;
+  }
+
+  #home .quote {
+    font-size: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #home .quote {
+    font-size: 10px;
+  }
+
+  /* Logos */
+  #home #awtf-logo {
+    top: 6vh;
+    min-width: 250px;
+  }
+
+  #home #aahaa-logo {
+    top: 6vh;
+  }
+
+  #home .services {
+    top: 12vh;
   }
 }

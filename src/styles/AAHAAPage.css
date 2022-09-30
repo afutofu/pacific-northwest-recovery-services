@@ -174,7 +174,7 @@
   transform: skewY(2deg);
 }
 
-#aahaa .team {
+#aahaa .testimonials {
   width: 100%;
   background-color: white;
   padding-top: 150px;
@@ -182,12 +182,63 @@
   padding-bottom: 50px;
 }
 
-#aahaa .team h3 {
+#aahaa .testimonials h3 {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 25px;
   color: #61a656;
+}
+
+#aahaa .team {
+  width: 100%;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  z-index: 10;
+  background-color: #61a656;
+}
+
+#aahaa .team h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+
+#aahaa .team ul {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#aahaa .team li {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+#aahaa .team::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(50% + 20px);
+  z-index: -1;
+  background-color: #61a656;
+  transform-origin: bottom left;
+  transform: skewY(-2deg);
 }
 
 #aahaa-button {
@@ -208,10 +259,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  #aahaa header .title {
-    /* height: 80px; */
-  }
-
   #aahaa header .phone-number {
     font-size: 16px;
   }
@@ -246,11 +293,11 @@
     font-size: 16px;
   }
 
-  #aahaa .team {
+  #aahaa .testimonials {
     padding-top: 150px;
   }
 
-  #aahaa .team h3 {
+  #aahaa .testimonials h3 {
     font-size: 25px;
   }
 
@@ -258,17 +305,15 @@
     padding: 10px 25px;
     font-size: 16px;
   }
+
+  #aahaa .team h3 {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   #aahaa header .icons a {
     margin: 0px;
-  }
-
-  #aahaa header .icons img {
-    /* display: flex;
-    width: 20px;
-    padding: 5px; */
   }
 
   #aahaa header .title {
@@ -297,17 +342,21 @@
     height: 105%;
   }
 
-  #aahaa .team {
+  #aahaa .testimonials {
     padding-top: 100px;
   }
 
-  #aahaa .team h3 {
+  #aahaa .testimonials h3 {
     font-size: 20px;
   }
 
   #aahaa-button {
     padding: 10px 20px;
     font-size: 14px;
+  }
+
+  #aahaa .team h3 {
+    font-size: 20px;
   }
 }
 
@@ -347,8 +396,12 @@
     margin-bottom: 20px;
   }
 
-  #aahaa .team {
+  #aahaa .testimonials {
     padding-top: 90px;
+  }
+
+  #aahaa .testimonials h3 {
+    font-size: 18px;
   }
 
   #aahaa .team h3 {

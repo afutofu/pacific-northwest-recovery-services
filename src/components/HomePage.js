@@ -65,6 +65,7 @@ const HomePage = () => {
               <li>Peer Support</li>
               <li>Crisis Help</li>
               <li>DUI Assessments</li>
+              <li>Mental Health Counselling</li>
             </ul>
           </div>
         </div>
@@ -109,8 +110,12 @@ const HomePage = () => {
               <li>Furnishings (including bed & dressers)</li>
               <li>Linen and Bath</li>
               <li>Easy Access to Public Transportation</li>
+              <li>Therapeutic Classes</li>
+              <li>Work Readiness Programs</li>
+              <li>Structured and Supportive Clean and Sober Environment</li>
             </ul>
           </div>
+          <h3 className="quote">"Compassion with accountability"</h3>
         </div>
         {/* </div> */}
       </a>
