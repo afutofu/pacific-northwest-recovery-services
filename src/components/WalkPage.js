@@ -14,7 +14,7 @@ import staff3 from "../assets/images/awtf-staff-3.jpg";
 const team = [
   {
     name: "Lynn Dalsing",
-    title: "Executive Director, Billing Coordinator",
+    title: "Executive Director, Billing Coordinator, Owner, Coordinator",
     pic: staff1,
     desc: "Ms. Dalsing has worked in Behavioral Health since 2015 until current and has been in Medical Billing in Washington state from 1992 to currently. Ms. Dalsing has a Bachelors in Business Management with expertise in Medical Billing, HIPPA Compliance and WAC Requirements. Ms. Dalsing opened A Walk To Freedom Counseling with the main purpose of helping individuals find peace and happiness when battling Substance Use Disorder and/or Mental Health issues.",
   },
