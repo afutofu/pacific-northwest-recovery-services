@@ -123,6 +123,10 @@
     line-height: 20px;
   }
 
+  #aahaa #team-selector .content {
+    margin-bottom: 10px;
+  }
+
   #aahaa #team-selector .picture {
     width: 200px;
     height: 200px;
@@ -140,6 +144,10 @@
     flex-direction: column;
   }
 
+  #team-selector .title {
+    margin: 0;
+  }
+
   #team-selector .picture {
     display: none;
   }
@@ -153,6 +161,14 @@
 }
 
 @media only screen and (max-width: 450px) {
+  #team-selector {
+    height: 450px;
+  }
+
+  #aahaa #team-selector {
+    height: 500px;
+  }
+
   #team-selector .name {
     font-size: 14px;
   }
@@ -165,6 +181,7 @@
     width: 250px;
     font-size: 12px;
     line-height: 18px;
+    height: 250px;
   }
 
   #team-selector .options img {
