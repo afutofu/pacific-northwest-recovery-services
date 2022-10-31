@@ -1,8 +1,8 @@
-# Gateway Site for A Walk To Freedom and AAHAA
+# Gateway Site for Pacific Northwest Recovery Services
 
-Gateway site for AAHAA and A Walk To Freedom.
+Gateway site for Pacific Northwest Recovery Services
 
-Website Link (Tentative): [https://pacificnorthwestrecoveryservices.com](https://pacificnorthwestrecoveryservices.com)
+Website Link: [https://pacificnorthwestrecoveryservices.com](https://pacificnorthwestrecoveryservices.com)
 
 A Walk To Freedom Page: [https://awalktofreedom.com](https://awalktofreedom.com)
 
