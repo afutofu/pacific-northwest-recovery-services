@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image"
 
 import Banner from "../components/Banner";
 import TestimonialSelector from "../components/TestimonialSelector";
@@ -10,7 +11,7 @@ const team = [
     name: "Mark Hampton",
     title: "Executive Director",
     pic: "/images/aahaa-staff-1.jpeg",
-    desc: 'Our Director of AAHAA has been working in this field for 15 years! Mark has worked with literally hundreds of men and women to assist in restoring their lives. Promoting healing and growth through his foundational premise "Compassion with Accountability".  Mark majored in Sociology and minored in Psychology during his collegiate years, but has found his greatest experiences and lessons in walking through his own path of change for decades. Mark has struggled with the same challenges as those he serves now. This is how Mark is able to relate, encourage, and assist those who are really striving for a Real Change! Mark’s passion and excitement speaks to his profound calling and focus in this field. He looks forward to continued years of service.',
+    desc: "Our Director of AAHAA has been working in this field for 15 years! Mark has worked with literally hundreds of men and women to assist in restoring their lives. Promoting healing and growth through his foundational premise \"Compassion with Accountability\".  Mark majored in Sociology and minored in Psychology during his collegiate years, but has found his greatest experiences and lessons in walking through his own path of change for decades. Mark has struggled with the same challenges as those he serves now. This is how Mark is able to relate, encourage, and assist those who are really striving for a Real Change! Mark's passion and excitement speaks to his profound calling and focus in this field. He looks forward to continued years of service.",
   },
   {
     name: "Maria Blanchard",
@@ -37,7 +38,7 @@ const AAHAAPage = () => {
     <>
       <Head>
         {/* <!-- Site Meta Tags --> */}
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta
@@ -89,6 +90,7 @@ const AAHAAPage = () => {
       </Head>
       <section id="aahaa">
         <img
+        layout="fill"
           className="bg-image"
           src={"/images/aahaa-home-bg.jpg"}
           alt="person opening up to sunlight and embracing change. letting go of their previous problems and opening up to other people."
