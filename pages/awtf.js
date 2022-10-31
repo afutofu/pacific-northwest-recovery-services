@@ -21,7 +21,7 @@ const team = [
     name: "Michael Preston",
     title: "Substance Use Disorder Professional Trainee, Coordinator, Owner",
     pic: "/images/awtf-staff-3.jpg",
-    desc: "Mr. Preston has been working in the behavioral Health for 6 years. He not only teaches but practices Mindfulness himself while on his own recovery journey. He is a Certified Peer Support as well as a Substance Use Disorder Professional Trainee. He has work as a manager in recovery homes and has worked with parents of addicts to help unite families. Mr. Preston's goal is to help show people that are struggling recovery is possible and there is a way out of pain and suffering.",
+    desc: "Mr. Preston has been working in the behavioral Health for 6 years. He not only teaches but practices Mindfulness himself while on his own recovery journey. He is a Certified Peer Support as well as a Substance Use Disorder Professional Trainee. He has work as a manager in recovery homes and has worked with parents of addicts to help unite families. Mr. Preston&apos;s goal is to help show people that are struggling recovery is possible and there is a way out of pain and suffering.",
   },
 ];
 

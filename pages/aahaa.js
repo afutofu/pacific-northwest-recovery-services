@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image"
 
 import Banner from "../components/Banner";
 import TestimonialSelector from "../components/TestimonialSelector";
@@ -11,13 +10,13 @@ const team = [
     name: "Mark Hampton",
     title: "Executive Director",
     pic: "/images/aahaa-staff-1.jpeg",
-    desc: "Our Director of AAHAA has been working in this field for 15 years! Mark has worked with literally hundreds of men and women to assist in restoring their lives. Promoting healing and growth through his foundational premise \"Compassion with Accountability\".  Mark majored in Sociology and minored in Psychology during his collegiate years, but has found his greatest experiences and lessons in walking through his own path of change for decades. Mark has struggled with the same challenges as those he serves now. This is how Mark is able to relate, encourage, and assist those who are really striving for a Real Change! Mark's passion and excitement speaks to his profound calling and focus in this field. He looks forward to continued years of service.",
+    desc: "Our Director of AAHAA has been working in this field for 15 years! Mark has worked with literally hundreds of men and women to assist in restoring their lives. Promoting healing and growth through his foundational premise \"Compassion with Accountability\".  Mark majored in Sociology and minored in Psychology during his collegiate years, but has found his greatest experiences and lessons in walking through his own path of change for decades. Mark has struggled with the same challenges as those he serves now. This is how Mark is able to relate, encourage, and assist those who are really striving for a Real Change! Mark&apos;s passion and excitement speaks to his profound calling and focus in this field. He looks forward to continued years of service.",
   },
   {
     name: "Maria Blanchard",
     title: "Lead Case Manager",
     pic: "/images/aahaa-staff-2.jpeg",
-    desc: "Maria is a Certified Peer Counselor, and embraces her role as Lead Case Manager for AAHAA Supportive Housing. She has been sober since 2016, and uses her recovery journey to uplift others through fellowship, compassion, and a level head. Her passion is to work with those in recovery because she has walked the same path and made it to the other side, and wants to show others that you can create a better life for yourself just like she did. She also has a certificate in Recognizing homelessness, and Challenging behaviors. She has raised two strong girls on her own. She knows it isn't about healing yourself, but healing the family too.",
+    desc: "Maria is a Certified Peer Counselor, and embraces her role as Lead Case Manager for AAHAA Supportive Housing. She has been sober since 2016, and uses her recovery journey to uplift others through fellowship, compassion, and a level head. Her passion is to work with those in recovery because she has walked the same path and made it to the other side, and wants to show others that you can create a better life for yourself just like she did. She also has a certificate in Recognizing homelessness, and Challenging behaviors. She has raised two strong girls on her own. She knows it isn&apos;t about healing yourself, but healing the family too.",
   },
   {
     name: "Flowers Patterson",
