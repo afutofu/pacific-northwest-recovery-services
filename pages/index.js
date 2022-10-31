@@ -167,7 +167,7 @@ const HomePage = () => {
                   <li>Structured and Supportive Clean and Sober Environment</li>
                 </ul>
               </div>
-              <h3 className="quote">"Compassion with accountability"</h3>
+              <h3 className="quote">&quot;Compassion with accountability&quot;</h3>
             </div>
             {/* </div> */}
           </a>

@@ -31,7 +31,7 @@ const TestimonialSelector = () => {
     <div id="testimonial-selector">
       <h2 className="name">{testimonials[selected].name} </h2>
       <div className="content">
-        <p className="quote">"{testimonials[selected].quote}"</p>
+        <p className="quote">&quot;{testimonials[selected].quote}&quot;</p>
       </div>
       <div className="options">
         {testimonials.map((testimonial, index) => {
