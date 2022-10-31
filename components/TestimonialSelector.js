@@ -9,12 +9,12 @@ const testimonials = [
   {
     name: "Jose",
     quote:
-      "This program has been a blessing to me, my family, and many others who have had to fight the battle of chemical dependency. I would encourage anyone who is interested in help for themselves or others, to reach out and contact AAHAA Clean and Sober Living — you won&apos;t regret it!",
+      "This program has been a blessing to me, my family, and many others who have had to fight the battle of chemical dependency. I would encourage anyone who is interested in help for themselves or others, to reach out and contact AAHAA Clean and Sober Living — you won't regret it!",
   },
   {
     name: `Reese`,
     quote:
-      "Cannot say enough good things about this Company. I haven&apos;t come across one person, including ones that had to leave the program, say anything but positive things about staff, Management, Case Workers, or the Owner. They have saved many lives. including mine for sure! There are programs that AAHAA works with to get your Rent paid for, REACH being one of them!",
+      "Cannot say enough good things about this Company. I haven't come across one person, including ones that had to leave the program, say anything but positive things about staff, Management, Case Workers, or the Owner. They have saved many lives. including mine for sure! There are programs that AAHAA works with to get your Rent paid for, REACH being one of them!",
   },
 
   {
