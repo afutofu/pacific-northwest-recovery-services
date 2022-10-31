@@ -45,6 +45,7 @@
   justify-content: center;
   align-items: center;
   z-index: 100;
+  text-align: center;
 }
 
 #home .home-banner .content {

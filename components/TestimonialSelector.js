@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import "../styles/TestimonialSelector.css";
-
 const testimonials = [
   {
     name: "Jacob",

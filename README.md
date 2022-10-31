@@ -10,11 +10,11 @@ Alcoholics & Addicts Helping Alcoholics & Addicts Page: [https://www.aahaasuppor
 
 Technologies used:
 
-- [React](https://reactjs.org/) - Frontend framework
+- [Next.js](https://nextjs.org) - Frontend framework
 
 How to run site locally:
 
-1. On the root directory /aahaa-gateway, install dependencies by running the command:
+1. On the root directory /awtf-aahaa-gateway, install dependencies by running the command:
 
 ```
 npm install
@@ -23,5 +23,5 @@ npm install
 2. Once dependencies are installed, run the following command to run the site locally:
 
 ```
-npm start
+npm run dev
 ```

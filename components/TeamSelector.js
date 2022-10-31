@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import "../styles/TeamSelector.css";
-
 const TeamSelector = ({ team }) => {
   const [selected, setSelected] = useState(0);
 
