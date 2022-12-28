@@ -10,7 +10,7 @@ const team = [
     name: "Mark Hampton",
     title: "Executive Director",
     pic: "/images/aahaa-staff-1.jpeg",
-    desc: "Our Director of AAHAA has been working in this field for 15 years! Mark has worked with literally hundreds of men and women to assist in restoring their lives. Promoting healing and growth through his foundational premise \"Compassion with Accountability\".  Mark majored in Sociology and minored in Psychology during his collegiate years, but has found his greatest experiences and lessons in walking through his own path of change for decades. Mark has struggled with the same challenges as those he serves now. This is how Mark is able to relate, encourage, and assist those who are really striving for a Real Change! Mark's passion and excitement speaks to his profound calling and focus in this field. He looks forward to continued years of service.",
+    desc: 'Our Director of AAHAA has been working in this field for 15 years! Mark has worked with literally hundreds of men and women to assist in restoring their lives. Promoting healing and growth through his foundational premise "Compassion with Accountability".  Mark majored in Sociology and minored in Psychology during his collegiate years, but has found his greatest experiences and lessons in walking through his own path of change for decades. Mark has struggled with the same challenges as those he serves now. This is how Mark is able to relate, encourage, and assist those who are really striving for a Real Change! Mark\'s passion and excitement speaks to his profound calling and focus in this field. He looks forward to continued years of service.',
   },
   {
     name: "Maria Blanchard",
@@ -89,7 +89,7 @@ const AAHAAPage = () => {
       </Head>
       <section id="aahaa">
         <img
-        layout="fill"
+          layout="fill"
           className="bg-image"
           src={"/images/aahaa-home-bg.jpg"}
           alt="person opening up to sunlight and embracing change. letting go of their previous problems and opening up to other people."
@@ -129,7 +129,7 @@ const AAHAAPage = () => {
             src={"/images/aahaa-logo.png"}
             alt="A Walk To Freedom"
           />
-          <p className="phone-number">Tel: +1 (253) 246-1613</p>
+          <p className="phone-number">Tel: +1 (253) 735-0665</p>
         </header>
         <div className="container about">
           {/* <h3>About Us</h3> */}
