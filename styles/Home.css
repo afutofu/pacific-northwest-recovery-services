@@ -132,7 +132,7 @@
 }
 
 #home .services ul {
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -142,10 +142,10 @@
 }
 
 #home .services li {
-  padding:5px;
+  padding: 5px;
   margin: 0 10px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   transition: text-shadow 0.1s linear;
 }
@@ -200,33 +200,94 @@
 
 #home #aahaa-logo {
   position: absolute;
-  min-width: 150px;
+  min-width: 200px;
   width: 30%;
   max-width: 320px;
   top: 32vh;
   transform: translateY(-50%);
 }
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
+  #home .services ul {
+    width: 90%;
+  }
 }
 
-@media only screen and (max-width: 992px) {
-} */
-
 @media only screen and (max-width: 1000px) {
-  #home {
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+  #home #aahaa-logo {
+    top: 30vh;
   }
 
-  #home .home-banner {
-    position: relative;
-    height: 140px;
+  #home .services {
+    position: absolute;
+    top: 40vh;
   }
 
-  #home .home-banner .content {
+  #home .services ul {
     width: 95%;
+  }
+
+  #home .services li {
+    font-size: 14px;
+  }
+
+  #home .home-banner .content h2 {
+    font-size: 18px;
+  }
+
+  #home .home-banner .content p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #home #aahaa-logo {
+    top: 25vh;
+  }
+
+  #home .services {
+    position: absolute;
+    top: 35vh;
+  }
+
+  #home .services ul {
+    width: 95%;
+  }
+
+  #home .services li {
+    font-size: 14px;
+  }
+
+  #home .quote {
+    top: 90vh;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #home #aahaa-logo {
+    top: 25vh;
+    width:60%;
+  }
+
+  #home .services {
+    position: absolute;
+    top: 35vh;
+  }
+
+  #home .services ul {
+    width: 95%;
+  }
+
+  #home .services li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  #home .quote {
+    top: 90vh;
+    font-size: 16px;
+    width:100%;
   }
 
   #home .home-banner .content h2 {
@@ -234,177 +295,41 @@
   }
 
   #home .home-banner .content p {
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  #awtf-container {
-    width: 100vw;
-    height: 30vh;
-    /* height:50vh; */
-  }
-
-  #aahaa-container {
-    width: 100vw;
-    height: 30vh;
-    /* height:50vh; */
-  }
-
-  /* Logos */
-  #home #awtf-logo {
-    position: absolute;
-    top: 6vh;
-    min-width: 400px;
-    width: 70%;
-    max-width: 700px;
-  }
-
-  #home #aahaa-logo {
-    position: absolute;
-    top: 6vh;
-    min-width: 150px;
-    width: 20%;
-    max-width: 300px;
-  }
-
-  .invisible {
-    opacity: 1;
-  }
-
-  #home .services {
-    top: 13vh;
-  }
-
-  #home .services ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  #home .services h3 {
     font-size: 10px;
-    margin-bottom: 15px;
-  }
-
-  #home .services li {
-    font-size: 8px;
-    margin-right: 10px;
-  }
-
-  #home .quote {
-    top: 35vh;
-    font-size: 12px;
-  }
-
-  /* Container states */
-  #home .container-normal {
-    width: 100%;
-    height: 50%;
-  }
-
-  #home .container-expand {
-    width: 100%;
-    height: 50%;
-  }
-
-  #home .container-shrink {
-    width: 100%;
-    height: 50%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  #home .services {
-    top: 11vh;
-  }
-
-  #home .services li {
-    margin-bottom: 12px;
-  }
-
-  #home #aahaa-logo {
-    min-width: 120px;
-    width: 15%;
-    max-width: 300px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #home .services {
-    top: 10vh;
-  }
-
-  #home .services li {
-    margin-bottom: 10px;
-  }
-
-  #home .quote {
-    font-size: 11px;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  #home .home-banner .content h2 {
-    font-size: 10px;
-  }
-
-  #home .home-banner .content p {
-    font-size: 8px;
-    line-height: 14px;
-  }
-
-  /* Logos */
-  #home #awtf-logo {
-    top: 8vh;
-    min-width: 300px;
-    width: 70%;
-    max-width: 700px;
-  }
-
   #home #aahaa-logo {
-    top: 8vh;
+    top: 23vh;
+    width:50%;
   }
 
   #home .services {
-    top: 13vh;
+    position: absolute;
+    top: 29vh;
   }
 
   #home .services ul {
-    margin: 0;
-    padding: 0;
-    width: 80%;
-  }
-
-  #home .services h3 {
-    font-size: 8px;
-    margin-bottom: 10px;
+    width: 95%;
   }
 
   #home .services li {
-    font-size: 6px;
+    font-size: 14px;
+    margin-bottom: 15px;
   }
 
   #home .quote {
+    top: 91vh;
+    font-size: 16px;
+    width:100%;
+  }
+
+  #home .home-banner .content p {
     font-size: 10px;
-    width: 100%;
+    line-height: 14px;
   }
 }
 
 @media only screen and (max-width: 300px) {
-  #home .quote {
-    font-size: 10px;
-  }
-
-  /* Logos */
-  #home #awtf-logo {
-    top: 6vh;
-    min-width: 250px;
-  }
-
-  #home #aahaa-logo {
-    top: 6vh;
-  }
-
-  #home .services {
-    top: 12vh;
-  }
 }
