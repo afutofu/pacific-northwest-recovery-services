@@ -73,66 +73,10 @@ const HomePage = () => {
             </p>
           </div>
         </div>
-        <Link href="/awtf">
-          <a
-            id="awtf-container"
-            className={
-              showAwtf
-                ? "container-expand"
-                : showAahaa
-                ? "container-shrink"
-                : "container-normal"
-            }
-            onMouseOver={() => setShowAwtf(true)}
-            onMouseLeave={() => setShowAwtf(false)}
-          >
-            <img
-              src={"/images/awtf-home-bg.jpg"}
-              alt="bridge going into forest, a walk into the unknown is the first step into freedom"
-              className="background-image"
-            />
-            {/* <div className="container"> */}
-            <img
-              id="awtf-logo"
-              src={"/images/awtf-logo.png"}
-              alt="A Walk To Freedom"
-            />
-            <div className={`content  ${showAwtf ? "visible" : "invisible"}`}>
-              {/* <h3 className="quote">"The Road to Healing Begins Here"</h3> */}
-              <div className="services">
-                <h3>Services We Provide</h3>
-                <ul>
-                  <li>Intensive Outpatient</li>
-                  <li>Relapse Prevention</li>
-                  <li>Outpatient</li>
-                  <li>Alcohol, Drug information School</li>
-                  <li>Aftercare</li>
-                  <li>Consumer Awareness</li>
-                  <li>Deferred Prosecution</li>
-                  <li>Family Law Assessments</li>
-                  <li>Drug and Alcohol Assessments</li>
-                  <li>Housing Referrals</li>
-                  <li>Employment Referrals</li>
-                  <li>Peer Support</li>
-                  <li>Crisis Help</li>
-                  <li>DUI Assessments</li>
-                  <li>Mental Health Counselling</li>
-                </ul>
-              </div>
-            </div>
-            {/* </div> */}
-          </a>
-        </Link>
         <Link href="/aahaa">
           <a
             id="aahaa-container"
-            className={
-              showAahaa
-                ? "container-expand"
-                : showAwtf
-                ? "container-shrink"
-                : "container-normal"
-            }
+            style={{width:'100%'}}
             onMouseOver={() => setShowAahaa(true)}
             onMouseLeave={() => setShowAahaa(false)}
           >
@@ -143,7 +87,7 @@ const HomePage = () => {
             />
             <img id="aahaa-logo" src={"/images/aahaa-logo.png"} alt="AAHAA" />
             {/* <div className="container"> */}
-            <div className={`content  ${showAahaa ? "visible" : "invisible"}`}>
+            <div className={`content  ${showAahaa ? "visible" : "visible"}`}>
               {/* <h3 className="quote">
             “A new way of life is possible, one just has to be willing to try
             something new and have a willingness to embrace change.”

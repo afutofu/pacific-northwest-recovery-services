@@ -94,8 +94,8 @@
 }
 
 #home .content:hover {
-  transition: opacity 1s ease, font-size 0.3s ease;
-  transition-delay: 0.4s;
+  /* transition: opacity 1s ease, font-size 0.3s ease; */
+  /* transition-delay: 0.4s; */
 }
 
 #home .quote {
@@ -114,7 +114,7 @@
 
 #home .services {
   position: absolute;
-  top: 43vh;
+  top: 45vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -127,12 +127,12 @@
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: white;
 }
 
 #home .services ul {
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -142,10 +142,16 @@
 }
 
 #home .services li {
+  padding:5px;
   margin: 0 10px;
-  margin-bottom: 15px;
-  font-size: 14px;
+  margin-bottom: 35px;
+  font-size: 18px;
   font-weight: 400;
+  transition: text-shadow 0.1s linear;
+}
+
+#home .services li:hover {
+  text-shadow: 0px 0px 20px white, 0px 0px 20px white;
 }
 
 /* AWTF Container */
@@ -195,9 +201,9 @@
 #home #aahaa-logo {
   position: absolute;
   min-width: 150px;
-  width: 40%;
-  max-width: 270px;
-  top: 35vh;
+  width: 30%;
+  max-width: 320px;
+  top: 32vh;
   transform: translateY(-50%);
 }
 
