@@ -26,6 +26,15 @@
   height: 60px;
   margin-bottom: 30px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #61a656;
+}
+
+#aahaa header .back-and-icons {
+  position:absolute;
+  left: 10vw;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #61a656;
@@ -37,6 +46,7 @@
   font-weight: 600;
   font-size: 20px;
   transition: color 0.2s ease;
+  margin-right:100px;
 }
 
 #aahaa .back-button:hover {
@@ -84,8 +94,15 @@
 }
 
 #aahaa header .title {
+  position: absolute;
   height: 110px;
 }
+
+#aahaa header .phone-number {
+  position:absolute;
+  right: 10vw;
+}
+
 
 #aahaa .about {
   width: 60%;
@@ -259,8 +276,19 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  #aahaa header .back-button {
+    font-size: 16px;
+    margin-right: 85px;
+  }
+
   #aahaa header .phone-number {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #aahaa header .back-button {
+    margin-right: 60px;
   }
 }
 
@@ -275,6 +303,10 @@
 
   #aahaa header .title {
     height: 90px;
+  }
+
+  #aahaa header .phone-number {
+    display:none
   }
 
   #aahaa .about p {

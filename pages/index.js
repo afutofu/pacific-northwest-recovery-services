@@ -66,17 +66,17 @@ const HomePage = () => {
             <h2>Pacific Northwest Recovery Services</h2>
             <p>
               After decades of living in this space and finding spaces to heal,
-              A Walk To Freedom and AAHAA have decided to come together in order
-              to provide all these comprehensive wrap-around services for{" "}
-              <strong>healing</strong> and <strong>growth</strong> for the men
-              and women who are looking for <strong>real change</strong>.
+              we have the opportunity to provide all these comprehensive
+              wrap-around services for <strong>healing</strong> and{" "}
+              <strong>growth</strong> for the men and women who are looking for{" "}
+              <strong>real change</strong>.
             </p>
           </div>
         </div>
         <Link href="/aahaa">
           <a
             id="aahaa-container"
-            style={{width:'100%'}}
+            style={{ width: "100%" }}
             onMouseOver={() => setShowAahaa(true)}
             onMouseLeave={() => setShowAahaa(false)}
           >
@@ -111,7 +111,9 @@ const HomePage = () => {
                   <li>Structured and Supportive Clean and Sober Environment</li>
                 </ul>
               </div>
-              <h3 className="quote">&quot;Compassion with accountability&quot;</h3>
+              <h3 className="quote">
+                &quot;Compassion with accountability&quot;
+              </h3>
             </div>
             {/* </div> */}
           </a>

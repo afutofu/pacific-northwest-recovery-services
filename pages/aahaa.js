@@ -109,21 +109,24 @@ const AAHAAPage = () => {
           </p>
         </Banner>
         <header>
-          <Link href="/">
-            <a className="back-button">Back</a>
-          </Link>
-          <div className="icons">
-            <a
-              href="https://www.facebook.com/aahaasoberliving"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={"/icons/iconmonstr-facebook-white.png"}
-                alt="facebook logo"
-              />
-            </a>
+          <div className="back-and-icons">
+            <Link href="/">
+              <a className="back-button">Back</a>
+            </Link>
+            <div className="icons">
+              <a
+                href="https://www.facebook.com/aahaasoberliving"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={"/icons/iconmonstr-facebook-white.png"}
+                  alt="facebook logo"
+                />
+              </a>
+            </div>
           </div>
+
           <img
             className="title"
             src={"/images/aahaa-logo.png"}
