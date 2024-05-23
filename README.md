@@ -10,7 +10,7 @@ Alcoholics & Addicts Helping Alcoholics & Addicts Page: [https://www.aahaasuppor
 
 Technologies used:
 
-- [Next.js](https://nextjs.org) - Frontend framework
+- [Next.js](https://nextjs.org)
 
 How to run site locally:
 
